@@ -13,13 +13,24 @@ public class JSnack1 {
 		System.out.println("inserisci cinque numeri:");
 		int numero;
 		int somma = 0;
-	
+		int i=0;
 		
-		for (int i = 0; i<5; i++) {
+		while(i < 5) {
 			numero = scan.nextInt();
 			somma = somma + numero;
+			i++;
 		}
+	
 		System.out.println("la somma è: " + somma);
+		
+		
+		
+		
+		//for (int i = 0; i<5; i++) {
+		//	numero = scan.nextInt();
+		//	somma = somma + numero;
+		//}
+		//System.out.println("la somma è: " + somma);
 	}
 
 }
